@@ -24,7 +24,6 @@
 
 ![软件截图1](https://github.com/user-attachments/assets/9cee4556-fbc7-4739-bf08-f17092a51c19)
 
-![软件截图2](https://github.com/user-attachments/assets/ed87dee0-162a-440b-b039-cddaf646dc48)
 
 ## 技术特点
 
