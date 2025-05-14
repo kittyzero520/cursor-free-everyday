@@ -1,22 +1,50 @@
-完全免费,仁霄cursor免费助手
-一键获取新额度,自动满额度账号,不需要你登录账号,同时解决机器码问题,请勿滥用合理使用
+# 仁霄 Cursor 免费助手
 
-QQ群获取最新更新
-![image](https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479)
+## 简介
 
-支持Windows Mac Linux软件截图
-![image](https://github.com/user-attachments/assets/9cee4556-fbc7-4739-bf08-f17092a51c19)
-![image](https://github.com/user-attachments/assets/ed87dee0-162a-440b-b039-cddaf646dc48)
+完全免费的 Cursor 助手工具，提供以下功能：
+- 一键获取新额度
+- 自动满额度账号
+- 无需登录账号
+- 解决机器码问题
 
+**请勿滥用，合理使用**
 
-Rust编写,体积小,内存安全速度性能快
+## 获取最新更新
 
-声明
+加入 QQ 群获取最新更新：
+
+![QQ群二维码](https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479)
+
+## 支持平台
+
+支持 Windows、Mac 和 Linux 系统
+
+### 软件截图
+
+![软件截图1](https://github.com/user-attachments/assets/9cee4556-fbc7-4739-bf08-f17092a51c19)
+
+![软件截图2](https://github.com/user-attachments/assets/ed87dee0-162a-440b-b039-cddaf646dc48)
+
+## 技术特点
+
+- Rust 编写
+- 体积小
+- 内存安全
+- 速度性能快
+
+## 声明
+
 本项目仅供学习交流使用，请勿用于商业用途。
+
 本项目不承担任何法律责任，使用本项目造成的任何后果，由使用者自行承担。
 
-特别鸣谢
-本项目的开发过程中得到了众多大佬和社区成员的支持与帮助，在此特别感谢
+## 特别鸣谢
 
-请我喝杯茶 | buy me a cup of tea
-![image](https://github.com/user-attachments/assets/861cb471-d580-441c-acab-89bf30bdc45d)
+本项目的开发过程中得到了众多大佬和社区成员的支持与帮助，在此特别感谢。
+
+## 支持项目
+
+如果您觉得这个项目对您有帮助，可以请我喝杯茶：
+
+![赞赏码](https://github.com/user-attachments/assets/861cb471-d580-441c-acab-89bf30bdc45d)
