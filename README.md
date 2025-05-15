@@ -18,9 +18,7 @@
 
 ![image](https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95)
 
-## 获取最新更新
-
-加入 QQ 群获取最新更新：
+## 由于文件大上传不了, 加入 QQ 群获取下载：
 
 ![QQ群二维码](https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479)
 
