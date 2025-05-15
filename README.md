@@ -10,19 +10,19 @@
 
 **请勿滥用，合理使用**
 
-## 获取最新更新
-
-加入 QQ 群获取最新更新：
-
-![QQ群二维码](https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479)
-
 ## 支持平台
 
 支持 Windows、Mac 和 Linux 系统
 
 ### 软件截图
 
-![软件截图1](https://github.com/user-attachments/assets/9cee4556-fbc7-4739-bf08-f17092a51c19)
+![image](https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95)
+
+## 获取最新更新
+
+加入 QQ 群获取最新更新：
+
+![QQ群二维码](https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479)
 
 
 ## 技术特点
