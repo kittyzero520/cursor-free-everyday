@@ -1,5 +1,13 @@
 # Cursor 免费助手
 
+## 加入QQ群获取最新下载,交流学习
+<img src="https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479" width="200" alt="QQ群二维码">
+
+
+### 软件截图
+
+<img src="https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95" width="500" alt="软件截图"> <img src="https://github.com/user-attachments/assets/255ebe84-8441-4e59-b06d-69ecf1bd9733" width="500" alt="软件截图2">
+
 ## 简介
 
 完全免费的 Cursor 助手工具，提供以下功能：
@@ -12,11 +20,7 @@
 
 ## 支持平台
 
-支持 Windows、Mac 和 Linux 系统
-
-### 软件截图
-
-<img src="https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95" width="500" alt="软件截图">
+支持 Windows、Mac系统
 
 ## 声明
 
@@ -30,6 +34,6 @@
 
 ## 支持项目
 
-加入QQ群获取更新,如果您觉得这个项目对您有帮助，可以请我喝杯茶：
+如果您觉得这个项目对您有帮助，可以请我喝杯茶：
 
-<img src="https://github.com/user-attachments/assets/861cb471-d580-441c-acab-89bf30bdc45d" width="200" alt="赞赏码"> <img src="https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479" width="200" alt="QQ群二维码">
+<img src="https://github.com/user-attachments/assets/861cb471-d580-441c-acab-89bf30bdc45d" width="200" alt="赞赏码"> 
