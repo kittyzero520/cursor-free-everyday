@@ -9,7 +9,7 @@ use std::fs;
 use std::io::{self, Write};
 use std::path::{Path, PathBuf};
 use std::process::{Command, Stdio};
-use sysinfo::{ProcessExt, System, SystemExt};
+use sysinfo::{System};
 use uuid::Uuid;
 use winreg::enums::*;
 use winreg::RegKey;
@@ -47,7 +47,7 @@ fn get_backup_dir_path() -> Option<PathBuf> {
 }
 
 fn get_cursor_package_path() -> Option<PathBuf> {
-    if let Some(user_dirs) = UserDirs::new() {
+    if let Some(user_dirs) = BaseDirs::new() {
         let local_app_data_dir = user_dirs.data_local_dir();
         let primary_path = local_app_data_dir.join("Programs").join("cursor").join("resources").join("app").join("package.json");
         if primary_path.exists() {
@@ -62,7 +62,7 @@ fn get_cursor_package_path() -> Option<PathBuf> {
 }
 
 fn get_cursor_updater_path() -> Option<PathBuf> {
-    if let Some(user_dirs) = UserDirs::new() {
+    if let Some(user_dirs) = BaseDirs::new() {
         let local_app_data_dir = user_dirs.data_local_dir();
         Some(local_app_data_dir.join("cursor-updater"))
     } else {
@@ -188,7 +188,7 @@ fn main() {
     let prefix_hex = "auth0|user_".as_bytes().iter().map(|b| format!("{:02x}", b)).collect::<String>();
     let random_part = get_random_hex(32);
     let machine_id = format!("{}{}", prefix_hex, random_part);
-    let sqm_id = format!("{{}}", Uuid::new_v4().to_string().to_uppercase());
+    let sqm_id = format!("{{{}}}", Uuid::new_v4().to_string().to_uppercase());
 
     // println!("Generated MAC_MACHINE_ID: {}", mac_machine_id);
     // println!("Generated UUID_STR: {}", uuid_str);
