@@ -16,9 +16,7 @@
 
 ### 软件截图
 
-![image](https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95)
-
-
+<img src="https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95" width="500" alt="软件截图">
 
 ## 声明
 
@@ -34,4 +32,4 @@
 
 加入QQ群获取更新,如果您觉得这个项目对您有帮助，可以请我喝杯茶：
 
-![赞赏码](https://github.com/user-attachments/assets/861cb471-d580-441c-acab-89bf30bdc45d) ![QQ群二维码](https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479)
+<img src="https://github.com/user-attachments/assets/861cb471-d580-441c-acab-89bf30bdc45d" width="200" alt="赞赏码"> <img src="https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479" width="200" alt="QQ群二维码">
