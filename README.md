@@ -1,13 +1,5 @@
 # Cursor 免费助手
 
-## 加入QQ群获取最新下载,交流学习
-<img src="https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479" width="200" alt="QQ群二维码">
-
-
-### 软件截图
-
-<img src="https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95" width="400" alt="软件截图"> <img src="https://github.com/user-attachments/assets/255ebe84-8441-4e59-b06d-69ecf1bd9733" width="400" alt="软件截图2">
-
 ## 简介
 
 完全免费的 Cursor 助手工具，提供以下功能：
@@ -18,9 +10,12 @@
 
 **请勿滥用，合理使用**
 
-## 支持平台
+## 加入QQ群获取最新下载,交流学习
+<img src="https://github.com/user-attachments/assets/db5a470a-a7ba-4dc0-91bf-506448b00479" width="200" alt="QQ群二维码">
 
-支持 Windows、Mac系统
+### 支持 Windows、Mac系统,软件截图
+
+<img src="https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95" width="400" alt="软件截图"> <img src="https://github.com/user-attachments/assets/255ebe84-8441-4e59-b06d-69ecf1bd9733" width="400" alt="软件截图2">
 
 ## 声明
 
