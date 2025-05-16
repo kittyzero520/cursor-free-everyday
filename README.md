@@ -6,7 +6,7 @@
 
 ### 软件截图
 
-<img src="https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95" width="500" alt="软件截图"> <img src="https://github.com/user-attachments/assets/255ebe84-8441-4e59-b06d-69ecf1bd9733" width="500" alt="软件截图2">
+<img src="https://github.com/user-attachments/assets/e463481e-649c-4c22-acf6-ffa34043eb95" width="400" alt="软件截图"> <img src="https://github.com/user-attachments/assets/255ebe84-8441-4e59-b06d-69ecf1bd9733" width="400" alt="软件截图2">
 
 ## 简介
 
