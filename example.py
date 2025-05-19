@@ -11,7 +11,7 @@ cursor注册机,邮箱验证码接收工具
 1. 修改下面的地址再运行: python example.py
    将使用默认邮箱地址获取验证码
 
-2. 指定邮箱: python example.py 网站 your_prefix@portaltrendsarena.com
+2. 指定邮箱: python example.py 网站 lordsem89@storetaikhoan.com
    将使用指定的邮箱地址获取验证码
 
 注意事项:
@@ -22,10 +22,10 @@ cursor注册机,邮箱验证码接收工具
 ✓ QQ群951642519,Github开源地址https://github.com/agentcodee/cursor-free-everyday
 
 运行结果预览:
-邮箱地址: cjrom2ero@portaltrendsarena.com
-开始获取邮箱 cjrom2ero@portaltrendsarena.com 的验证码...
-尝试 1/1: 请求验证码...
-成功获取验证码: 996571
+邮箱地址: lordsem89@storetaikhoan.com
+开始获取邮箱 lordsem89@storetaikhoan.com 的验证码...
+尝试 1/3: 请求验证码...
+成功获取验证码: 938298
 """
 
 import sys
@@ -51,7 +51,7 @@ def get_verification_code(server_url, email, retry_interval=3):
     
     print(f"开始获取邮箱 {email} 的验证码...")
     
-    max_retries = 1
+    max_retries = 3  # 增加重试次数
     for attempt in range(max_retries):
         try:
             print(f"尝试 {attempt+1}/{max_retries}: 请求验证码...")
@@ -69,14 +69,16 @@ def get_verification_code(server_url, email, retry_interval=3):
                 
             # 如果不是最后一次尝试，等待后重试
             if attempt < max_retries - 1:
-                print(f"等待 {retry_interval} 秒后重试...")
-                time.sleep(retry_interval)
+                retry_wait = retry_interval * (attempt + 1)  # 递增等待时间
+                print(f"等待 {retry_wait} 秒后重试...")
+                time.sleep(retry_wait)
                 
         except Exception as e:
             print(f"请求出错: {e}")
             if attempt < max_retries - 1:
-                print(f"等待 {retry_interval} 秒后重试...")
-                time.sleep(retry_interval)
+                retry_wait = retry_interval * (attempt + 1)
+                print(f"等待 {retry_wait} 秒后重试...")
+                time.sleep(retry_wait)
     
     print("达到最大重试次数，获取验证码失败")
     return None
@@ -98,10 +100,11 @@ def main():
     """主函数"""
     # 设置默认值 这个不变
     server_url = "http://14.103.190.198:5362"
+    # server_url = "http://127.0.0.1:5362"
 
     # 在项目中的txt提供了大量的域名,从里面随便选一个
     # 前缀可以使用一个10位数的随机数 数字小大写字母混合,@后缀不能随机
-    email = "cjrom2ero@portaltrendsarena.com" #这个要修改,硬编码了一个测试邮箱
+    email = "lordsem89@storetaikhoan.com" #这个要修改,硬编码了一个测试邮箱
     
     # 如果提供了命令行参数则使用命令行参数
     if len(sys.argv) >= 3:
