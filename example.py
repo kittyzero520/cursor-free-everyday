@@ -19,7 +19,7 @@ cursor注册机,邮箱验证码接收工具
 - 注册网站时先使用此邮箱，然后用此工具接收验证码
 - 验证码获取可能需要等待几秒钟
 
-✓ QQ群951642519,Github开源地址https://github.com/agentcodee/cursor-free-everyday
+✓ QQ群758736150,Github开源地址https://github.com/agentcodee/cursor-free-everyday
 
 运行结果预览:
 邮箱地址: lordsem89@storetaikhoan.com
