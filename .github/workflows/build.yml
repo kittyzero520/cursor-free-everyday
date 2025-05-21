@@ -1,0 +1,38 @@
+name: Cloud Compile for Windows and macOS
+on:
+  # 触发条件：推送代码到 main 分支或手动点击运行
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Compile on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4  # 拉取代码到 GitHub 服务器
+
+      - name: Set up Rust toolchain
+        uses: actions-rs/toolchain@v2
+        with:
+          toolchain: stable
+          override: true  # 覆盖系统默认工具链
+
+      - name: Build release version
+        run: |
+          cargo build --release
+          # 打印编译结果路径（调试用）
+          ls -lh target/release/
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cursor-free-${{ matrix.os }}
+          path: |
+            target/release/cursor-free.exe  # Windows 可执行文件
+            target/release/cursor-free      # macOS 可执行文件
+          if-no-files-found: error  # 若未生成文件则报错
