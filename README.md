@@ -33,4 +33,5 @@
 
 如果您觉得这个项目对您有帮助，可以请我喝杯茶：
 
-<img src="https://github.com/user-attachments/assets/861cb471-d580-441c-acab-89bf30bdc45d" width="200" alt="赞赏码"> 
+<img src="https://github.com/user-attachments/assets/3fcf26b7-5af2-421d-8f48-57856686456e" width="300" alt="支付宝赞赏码"> <img src="https://github.com/user-attachments/assets/92d3cf12-0336-4a8d-a1e2-2c010e8945d2" width="300" alt="微信赞赏码">
+
