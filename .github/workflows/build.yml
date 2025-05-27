@@ -1,0 +1,92 @@
+name: Build Cursor Free Helper
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+    
+    - name: Build Windows Release
+      run: cargo build --release
+    
+    - name: Create Windows Release Directory
+      run: |
+        mkdir release
+        copy target\release\reset_machine.exe release\
+        copy example.py release\
+        copy README.md release\
+        copy LICENSE release\
+        copy Domain Address.txt release\
+    
+    - name: Upload Windows Release
+      uses: actions/upload-artifact@v3
+      with:
+        name: windows-release
+        path: release/
+
+  build-mac:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+    
+    - name: Build Mac Release
+      run: cargo build --release
+    
+    - name: Create Mac Release Directory
+      run: |
+        mkdir release
+        cp target/release/reset_machine release/
+        cp example.py release/
+        cp README.md release/
+        cp LICENSE release/
+        cp "Domain Address.txt" release/
+    
+    - name: Upload Mac Release
+      uses: actions/upload-artifact@v3
+      with:
+        name: macos-release
+        path: release/
+
+  release:
+    needs: [build-windows, build-mac]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+    - name: Download Windows Release
+      uses: actions/download-artifact@v3
+      with:
+        name: windows-release
+        path: windows-release
+
+    - name: Download Mac Release
+      uses: actions/download-artifact@v3
+      with:
+        name: macos-release
+        path: macos-release
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          windows-release/*
+          macos-release/*
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
